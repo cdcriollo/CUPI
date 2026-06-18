@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRConsultaasig" value="name:codAsignatura;datatype:string,name:codUsuario;datatype:int" />
+	<infoitem key="UD_JRGruposala" value="name:grupo;datatype:int" />
+</info>

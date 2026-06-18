@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRActualizarR" value="name:Noinventario;datatype:int,name:Nombrebien;datatype:string,name:idTipo;datatype:int,name:estado;datatype:string,name:cantidad;datatype:int,name:marca;datatype:string,name:serial;datatype:int,name:caracteristicas;datatype:string,name:instalado_sala;datatype:int,name:instalado_comp;datatype:int,name:novedades;datatype:string,name:fechatramite;datatype:date,name:dependencia;datatype:string,name:orden_No;datatype:int,name:idsubtipo;datatype:int" />
+</info>

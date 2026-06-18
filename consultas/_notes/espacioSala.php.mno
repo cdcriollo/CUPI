@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JREsala" value="name:idHorario;datatype:int,name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+	<infoitem key="UD_JRConsHorario" value="name:idHorario;datatype:int,name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+</info>

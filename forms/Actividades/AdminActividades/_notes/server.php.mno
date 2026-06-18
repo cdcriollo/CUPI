@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:af_id;datatype:int,name:af_nombre;datatype:string,name:af_apellidos;datatype:string,name:af_identificacion;datatype:int,name:af_domicilio;datatype:string,name:af_telefono;datatype:string,name:af_celular;datatype:string,name:af_email;datatype:string,name:af_clave;datatype:string,name:af_fechaRegistro;datatype:date,name:af_fechaRetiro;datatype:date,name:af_estado;datatype:string,name:af_usuario;datatype:string,name:af_razonSocial;datatype:string,name:af_nit;datatype:int,name:af_fechaNacimiento;datatype:date,name:af_tipoDocumento;datatype:int,name:af_tipoUsuario;datatype:int,name:af_idBanco;datatype:int,name:af_tipoCuenta;datatype:int,name:af_numeroCuenta;datatype:string" />
+</info>

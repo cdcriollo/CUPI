@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRSala" value="name:sala;datatype:int" />
+	<infoitem key="UD_JRMatriculados" value="name:codUsuario;datatype:int,name:codAsignatura;datatype:string,name:pc;datatype:int,name:grupo;datatype:int,name:idHorario;datatype:int,name:Estado;datatype:string,name:No_reserva;datatype:string" />
+</info>

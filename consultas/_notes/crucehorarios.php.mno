@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCruceh" value="name:codAsignatura;datatype:string,name:grupo;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time" />
+	<infoitem key="UD_JRHasignatura" value="name:codUsuario;datatype:int,name:codAsignatura;datatype:string,name:pc;datatype:int,name:grupo;datatype:int" />
+</info>

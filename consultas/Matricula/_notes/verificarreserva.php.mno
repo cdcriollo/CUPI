@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRVerificarreserva" value="name:idHorario;datatype:int,name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:fechaInicio;datatype:date,name:fechaFinal;datatype:date,name:sala;datatype:int,name:estadohorario;datatype:string,name:No_reserva;datatype:string" />
+</info>

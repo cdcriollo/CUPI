@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:codIngreso;datatype:int,name:codUsuario;datatype:int,name:actividad;datatype:string,name:sala;datatype:int,name:dependencia;datatype:string,name:estamento;datatype:string,name:computador;datatype:int,name:fecha;datatype:date,name:horaingreso;datatype:time,name:horasalida;datatype:time,name:estado;datatype:int" />
+</info>

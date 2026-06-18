@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRSalas" value="name:numSala;datatype:int" />
+	<infoitem key="UD_JRRecursos" value="name:idTipo;datatype:int,name:descripcionTipo;datatype:string" />
+</info>

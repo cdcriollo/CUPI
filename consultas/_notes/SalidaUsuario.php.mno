@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRIngresos" value="name:codAsignatura;datatype:string,name:nomAsignatura;datatype:string,name:actividad;datatype:string,name:codPrograma;datatype:int,name:fechainicio;datatype:date,name:fechafinal;datatype:date,name:Estado;datatype:string" />
+	<infoitem key="UD_JRIngresos1" value="name:horainicio;datatype:time" />
+	<infoitem key="UD_JRSalidas" value="name:actividad;datatype:string,name:sala;datatype:int,name:computador;datatype:int,name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRConsultarasignatura" value="name:codAsignatura;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCGrupoRecurso" value="name:totalrecursos;datatype:int" />
+	<infoitem key="UD_JRCPrestadosRecursos" value="name:Noinventario;datatype:int" />
+</info>

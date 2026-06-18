@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_BAsignatura" value="name:estado;datatype:string" />
+	<infoitem key="UD_JRValMinMax" value="name:Minimo;datatype:int,name:Maximo;datatype:int" />
+	<infoitem key="UD_pcsSala" value="name:count(Nopc);datatype:int" />
+	<infoitem key="UD_JRPcsMatriculados" value="name:count(codUsuario);datatype:int" />
+	<infoitem key="UD_JRBuscarpcmatriculado" value="name:pc;datatype:int" />
+	<infoitem key="UD_JRpcssala" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRPc" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRPcGenerado" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRPcs" value="name:Nopc;datatype:int" />
+</info>

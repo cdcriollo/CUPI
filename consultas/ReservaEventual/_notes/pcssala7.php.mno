@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRPcsala7" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRPcmatriculasala7" value="name:pc;datatype:int" />
+	<infoitem key="UD_JREquipodocente" value="name:Nopc;datatype:int" />
+</info>

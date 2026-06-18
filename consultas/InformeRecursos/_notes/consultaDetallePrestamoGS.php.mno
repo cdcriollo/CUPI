@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRDetallePrestamo" value="name:Noinventario;datatype:int" />
+	<infoitem key="UD_JRPrestamoUsuario" value="name:fechaprestamo;datatype:date,name:codUsuario;datatype:int,name:horaentrega;datatype:time,name:horarecibido;datatype:time" />
+	<infoitem key="UD_JRNUsuario" value="name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRIdprestamos" value="name:idPrestamo;datatype:int" />
+	<infoitem key="UD_JRIdprestamo" value="name:idPrestamo;datatype:int,name:cantidad;datatype:int" />
+	<infoitem key="UD_JRDetalleprestamos" value="name:fechaprestamo;datatype:date,name:horaentrega;datatype:time,name:horarecibido;datatype:time,name:codUsuario;datatype:int" />
+</info>

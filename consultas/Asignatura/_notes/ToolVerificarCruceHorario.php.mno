@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCruceh" value="name:codAsignatura;datatype:string,name:grupo;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:codDia;datatype:int,name:sala;datatype:int" />
+	<infoitem key="UD_JRHasignatura" value="name:codDia;datatype:int,name:sala;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time" />
+	<infoitem key="UD_JRConsHorario" value="name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+</info>

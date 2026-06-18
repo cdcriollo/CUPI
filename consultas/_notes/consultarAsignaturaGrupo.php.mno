@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRAsignaturas" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string" />
+	<infoitem key="UD_JRHorario" value="name:idHorario;datatype:int,name:sala;datatype:int" />
+	<infoitem key="UD_JRAsignarpc" value="name:Nopc;datatype:int" />
+</info>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRAsignaturas" value="name:codAsignatura;datatype:int,name:nomAsignatura;datatype:string,name:codPeriodo;datatype:int,name:actividad;datatype:string,name:numSala;datatype:int,name:codPrograma;datatype:int,name:fechainicio;datatype:date,name:fechafinal;datatype:date" />
+	<infoitem key="UD_JRPrograma" value="name:codPrograma;datatype:int,name:descripcionpro;datatype:string" />
+	<infoitem key="UD_JRPeriodo" value="name:codPeriodo;datatype:int,name:descripcionper;datatype:string" />
+</info>

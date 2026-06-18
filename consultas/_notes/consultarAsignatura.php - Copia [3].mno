@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_BAsignatura" value="name:numSala;datatype:int,name:menor;datatype:int" />
+	<infoitem key="UD_JRAsignaturas" value="name:codAsignatura;datatype:int" />
+	<infoitem key="UD_JRBAsignaturas" value="name:codAsignatura;datatype:int" />
+	<infoitem key="UD_JRCGrupo" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string" />
+</info>

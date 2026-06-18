@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRDetalleRecursoGrupo" value="name:Noinventario;datatype:int,name:estadorecurso;datatype:string,name:caracteristicas;datatype:string" />
+</info>

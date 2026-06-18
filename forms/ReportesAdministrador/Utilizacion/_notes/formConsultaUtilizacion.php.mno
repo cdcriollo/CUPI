@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRActividad" value="name:idActividad;datatype:int,name:Descripcion;datatype:string" />
+	<infoitem key="UD_JREstamento" value="name:id;datatype:int,name:descripcion;datatype:string" />
+	<infoitem key="UD_JRDependencias" value="name:Iddependencia;datatype:int,name:descripcion;datatype:string" />
+	<infoitem key="UD_JRSalas" value="name:numSala;datatype:int" />
+</info>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRConsultarrecurso" value="name:descripcionTipo;datatype:string,name:descripcionSubtipo;datatype:string,name:cantidad;datatype:int,name:id;datatype:int" />
+	<infoitem key="UD_JRDescripgrupo" value="name:descripcionTipo;datatype:string" />
+	<infoitem key="UD_JRDescripsubgrupo" value="name:descripcionSubtipo;datatype:string" />
+	<infoitem key="UD_JRSalas" value="name:numSala;datatype:int" />
+	<infoitem key="UD_JRRecursos" value="name:idTipo;datatype:int,name:descripcionTipo;datatype:string" />
+</info>

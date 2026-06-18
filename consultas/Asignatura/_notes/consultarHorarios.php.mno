@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRHorarios" value="name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+</info>

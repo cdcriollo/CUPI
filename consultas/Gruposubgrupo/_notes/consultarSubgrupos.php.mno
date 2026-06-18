@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRsubgrupos" value="name:idsubtipo;datatype:int,name:descripcionSubtipo;datatype:string" />
+</info>

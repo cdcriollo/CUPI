@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRReporteAsistencia" value="name:codUsuario;datatype:int,name:fecha;datatype:date,name:horaingreso;datatype:time,name:horasalida;datatype:time" />
+	<infoitem key="UD_JRHorario" value="name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:fechaInicio;datatype:date,name:fechaFinal;datatype:date,name:No_reserva;datatype:string" />
+	<infoitem key="UD_JRDocentes" value="name:codUsuario;datatype:int,name:nombreUsu;datatype:string,name:estamento;datatype:string" />
+	<infoitem key="UD_JRNombreAsig" value="name:nomAsignatura;datatype:string" />
+	<infoitem key="UD_JRReserva" value="name:id;datatype:int,name:No_reserva;datatype:string,name:nombre_asignatura;datatype:string,name:internet;datatype:string" />
+	<infoitem key="UD_JRRecursosreservados" value="name:grupo;datatype:int,name:subgrupo;datatype:int,name:cantidad;datatype:int,name:Software;datatype:string" />
+	<infoitem key="UD_JRReservas" value="name:No_reserva;datatype:string" />
+</info>

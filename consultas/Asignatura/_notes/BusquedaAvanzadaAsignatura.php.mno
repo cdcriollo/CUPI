@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRBusquedaAUsuario" value="name:codUsuario;datatype:int,name:nombreUsu;datatype:string,name:estamento;datatype:string,name:dependencia;datatype:string,name:estado;datatype:string" />
+	<infoitem key="UD_JRBusquedaAAsignatura" value="name:codAsignatura;datatype:string,name:nomAsignatura;datatype:string,name:actividad;datatype:string,name:codPrograma;datatype:int,name:fechainicio;datatype:date,name:fechafinal;datatype:date,name:Estado;datatype:string" />
+</info>

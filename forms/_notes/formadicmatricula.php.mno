@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRUsuarios" value="name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRGrupo" value="name:codGrupo;datatype:int" />
+	<infoitem key="UD_JRSalas" value="name:numSala;datatype:int" />
+</info>

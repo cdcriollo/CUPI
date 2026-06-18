@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JREmatriculau" value="name:codUsuario;datatype:int,name:codAsignatura;datatype:string,name:pc;datatype:int,name:grupo;datatype:int,name:idHorario;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRAsignaturas" value="name:codAsignatura;datatype:string,name:nomAsignatura;datatype:string,name:descripcionpro;datatype:string,name:actividad;datatype:string,name:fechainicio;datatype:date,name:fechafinal;datatype:date,name:sala;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:idHorario;datatype:int,name:estadohorario;datatype:string" />
+</info>

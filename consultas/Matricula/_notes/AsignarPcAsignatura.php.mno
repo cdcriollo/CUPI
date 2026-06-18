@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_BAsignatura" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRValMinMax" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRPcGenerado" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRSalas" value="name:sala;datatype:int" />
+</info>

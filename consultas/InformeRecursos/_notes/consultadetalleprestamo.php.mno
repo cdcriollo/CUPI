@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCGrupoRecurso" value="name:totalrecursos;datatype:int,name:caracteristicas;datatype:string" />
+	<infoitem key="UD_JRCPrestadosRecursos" value="name:prestados;datatype:int" />
+	<infoitem key="UD_JRDetallePrestamo" value="name:idPrestamo;datatype:int,name:cantidad;datatype:int" />
+	<infoitem key="UD_JRPrestamoUsuario" value="name:fechaprestamo;datatype:date,name:codUsuario;datatype:int,name:horaentrega;datatype:time,name:horarecibido;datatype:time,name:codIngreso;datatype:int,name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRNUsuario" value="name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRRecursos" value="name:Noinventario;datatype:int" />
+	<infoitem key="UD_JRIngreso" value="name:codAsignatura;datatype:string,name:codGrupo;datatype:int" />
+	<infoitem key="UD_JRHorario" value="name:horafinal;datatype:time" />
+	<infoitem key="UD_JRVerificarGSInv" value="name:Noinventario;datatype:int" />
+	<infoitem key="UD_JREstadorecurso" value="name:estadorecurso;datatype:string,name:novedades;datatype:string,name:fechatramite;datatype:date,name:dependencia;datatype:string,name:orden_No;datatype:int" />
+</info>

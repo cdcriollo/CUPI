@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRDatosAsignatura" value="name:nomAsignatura;datatype:string,name:fechainicio;datatype:date,name:fechafinal;datatype:date" />
+</info>

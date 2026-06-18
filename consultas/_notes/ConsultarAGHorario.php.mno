@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRVerificarAsigGrupo" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string" />
+</info>

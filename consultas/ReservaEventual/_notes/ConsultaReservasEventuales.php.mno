@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRConsultaReservas" value="name:id;datatype:int,name:No_reserva;datatype:string,name:cod_asignatura;datatype:string,name:grupo;datatype:int,name:nombre_asignatura;datatype:string,name:fecha_reserva;datatype:datetime" />
+	<infoitem key="UD_JRHorario" value="name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:fechaInicio;datatype:date,name:fechaFinal;datatype:date,name:sala;datatype:int" />
+</info>

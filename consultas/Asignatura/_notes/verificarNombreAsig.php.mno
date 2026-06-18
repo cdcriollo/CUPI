@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRExistAsignatura" value="name:codAsignatura;datatype:string,name:nomAsignatura;datatype:string,name:actividad;datatype:string,name:codPrograma;datatype:int,name:fechainicio;datatype:date,name:fechafinal;datatype:date,name:Estado;datatype:string" />
+</info>

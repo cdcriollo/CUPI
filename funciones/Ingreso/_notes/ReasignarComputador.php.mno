@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRVerdispallpc" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRVerificarsala" value="name:numSala;datatype:int" />
+	<infoitem key="UD_JRDisppc" value="name:Nopc;datatype:int" />
+</info>

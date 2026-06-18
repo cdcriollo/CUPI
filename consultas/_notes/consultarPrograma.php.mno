@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRDependencia" value="name:descripcion;datatype:string" />
+	<infoitem key="UD_JRPrograma" value="name:codPrograma;datatype:int,name:descripcionpro;datatype:string" />
+</info>

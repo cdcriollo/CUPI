@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRIngresousuario" value="name:codIngreso;datatype:int" />
+	<infoitem key="UD_JRCusuario" value="name:estamento;datatype:string,name:dependencia;datatype:string" />
+	<infoitem key="UD_JRBprestamoR" value="name:idPrestamo;datatype:int" />
+	<infoitem key="UD_JRBequipos" value="name:Idingreso;datatype:int" />
+	<infoitem key="UD_JRpcActividad" value="name:codIngreso;datatype:int,name:computador;datatype:int" />
+	<infoitem key="UD_JRMenoringreso" value="name:estado;datatype:int" />
+	<infoitem key="UD_JRBprestamoRmax" value="name:idPrestamo;datatype:int" />
+	<infoitem key="UD_JRBequiposmax" value="name:Idingreso;datatype:int" />
+</info>

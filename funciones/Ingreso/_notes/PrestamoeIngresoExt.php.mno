@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCodIngreso" value="name:codIngreso;datatype:int" />
+	<infoitem key="UD_JRUsuarios" value="name:nombreUsu;datatype:string" />
+	<infoitem key="UD_JRCodingreso" value="name:codIngreso;datatype:int" />
+</info>

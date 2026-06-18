@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCmatriculaA" value="name:nombreUsu;datatype:string,name:codUsuario;datatype:int,name:pc;datatype:int" />
+	<infoitem key="UD_JRSala" value="name:sala;datatype:int" />
+</info>

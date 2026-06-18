@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRGrupo" value="name:codGrupo;datatype:int" />
+	<infoitem key="UD_JRPrograma" value="name:codPrograma;datatype:int,name:descripcionpro;datatype:string" />
+	<infoitem key="UD_JRSalas" value="name:numSala;datatype:int" />
+	<infoitem key="UD_JRPeriodo" value="name:codPeriodo;datatype:int,name:descripcionper;datatype:string" />
+</info>

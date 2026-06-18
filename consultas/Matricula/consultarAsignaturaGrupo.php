@@ -1,0 +1,150 @@
+<?php require_once('../../Connections/conexion.php'); ?>
+<?php
+if (!function_exists("GetSQLValueString")) {
+function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
+{
+  if (PHP_VERSION < 6) {
+    $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
+  }
+
+  $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
+
+  switch ($theType) {
+    case "text":
+      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+      break;    
+    case "long":
+    case "int":
+      $theValue = ($theValue != "") ? intval($theValue) : "NULL";
+      break;
+    case "double":
+      $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
+      break;
+    case "date":
+      $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+      break;
+    case "defined":
+      $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
+      break;
+  }
+  return $theValue;
+}
+}
+
+
+if(isset($_POST['codigo'], $_POST['grupo'], $_POST['sala'], $_POST['reserva']))
+{
+	
+	$codigo=$_POST['codigo'];
+	$grupo=$_POST['grupo'];
+	$sala=$_POST['sala'];
+	$reserva=$_POST['reserva'];
+	
+	mysql_select_db($database_conexion, $conexion);
+	$query_JRAsignaturas = "SELECT idHorario, sala FROM horario  WHERE codAsignatura = '$codigo' and codGrupo=$grupo and No_reserva='$reserva' and sala=$sala and estadohorario='activo'";
+	mysql_query("SET NAMES 'utf8'");
+	$JRAsignaturas = mysql_query($query_JRAsignaturas, $conexion) or die(mysql_error());
+	$row_JRAsignaturas = mysql_fetch_assoc($JRAsignaturas);
+	$totalRows_JRAsignaturas = mysql_num_rows($JRAsignaturas);
+
+
+    if ($totalRows_JRAsignaturas > 0)
+	{
+	  
+	 $idhorario= $row_JRAsignaturas['idHorario'];
+	 
+	mysql_select_db($database_conexion, $conexion);
+	$query_JRAsignarpc = "select pc from matricula where codAsignatura='$codigo' and grupo=$grupo and pc <> 0 and No_reserva= '$reserva' and Estado='Activa'";
+	mysql_query("SET NAMES 'utf8'");
+	$JRAsignarpc = mysql_query($query_JRAsignarpc, $conexion) or die(mysql_error());
+	$row_JRAsignarpc = mysql_fetch_assoc($JRAsignarpc);
+	$totalRows_JRAsignarpc = mysql_num_rows($JRAsignarpc);
+	    
+		
+    if ($totalRows_JRAsignarpc > 0)  
+    {  
+       do {  
+      ?>
+     <?php
+
+    $pcs[0]=$row_JRAsignarpc['pc'];
+
+      for ($i=1; $i<$totalRows_JRAsignarpc; $i++) 
+	  {  
+       $pc = mysql_fetch_array($JRAsignarpc);  
+       $pcs[$i] = $pc["pc"];  
+      }  
+	?>
+   <?php
+   } while ($row_JRAsignarpc = mysql_fetch_assoc($JRAsignarpc));
+   $rows = mysql_num_rows($JRAsignarpc);
+    if($rows > 0) {
+      mysql_data_seek($JRAsignarpc, 0);
+	  $row_JRAsignarpc = mysql_fetch_assoc($JRAsignarpc);
+     } 
+  
+    $cadenapcs=implode(',',$pcs); 
+	mysql_free_result($JRAsignarpc);
+	
+	mysql_select_db($database_conexion, $conexion);
+	$query_JRListapc = "select Nopc from pcs where numSala=$sala and Nopc NOT IN($cadenapcs) and estado <> 'Docente' limit 1";
+	mysql_query("SET NAMES 'utf8'");
+	$JRListapc = mysql_query($query_JRListapc, $conexion) or die(mysql_error());
+	$row_JRListapc = mysql_fetch_assoc($JRListapc);
+	$totalRows_JRListapc = mysql_num_rows($JRListapc);
+
+    if($totalRows_JRListapc > 0)
+	{
+
+		if($totalRows_JRListapc > 0 && $totalRows_JRAsignarpc > 0 && $totalRows_JRAsignaturas > 0)
+		{
+			 $cambiargrupo[0]=$row_JRAsignaturas['idHorario'];
+			 $cambiargrupo[1]= $sala;
+			 $cambiargrupo[2]= $row_JRListapc['Nopc']; 
+			 $cadenagrupofinal= implode('-',$cambiargrupo);
+			 echo $cadenagrupofinal;
+			 mysql_free_result($JRListapc);		
+		}
+	  }
+	
+	   else 
+	   {
+		  echo 2;  
+	   }	
+	
+
+  }
+  else
+  {
+	 mysql_select_db($database_conexion, $conexion);
+	$query_JRSeleccionarpc = "SELECT Nopc FROM pcs WHERE numSala= $sala limit 1 and estado <> 'Docente'";
+	mysql_query("SET NAMES 'utf8'");
+	$JRSeleccionarpc = mysql_query($query_JRSeleccionarpc, $conexion) or die(mysql_error());
+	$row_JRSeleccionarpc = mysql_fetch_assoc($JRSeleccionarpc);
+	$totalRows_JRSeleccionarpc = mysql_num_rows($JRSeleccionarpc);
+	
+	 $cambiargrupo[0]=$row_JRAsignaturas['idHorario'];
+	 $cambiargrupo[1]= $row_JRAsignaturas['sala'];
+	 $cambiargrupo[2]= $row_JRSeleccionarpc['Nopc']; 
+	 $cadenagrupofinal= implode('-',$cambiargrupo);
+	 echo $cadenagrupofinal;	
+	
+	mysql_free_result($JRSeleccionarpc);
+  }
+     
+  }
+  else
+  {
+	echo 0; 
+  }
+ 
+
+?>
+
+<?php
+
+mysql_free_result($JRAsignaturas);
+mysql_close($conexion);
+
+}
+?>

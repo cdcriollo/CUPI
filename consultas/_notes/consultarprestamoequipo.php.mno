@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCPrestamos" value="name:idPrestamo;datatype:int" />
+	<infoitem key="UD_JRDetallePrestamo" value="name:Noinventario;datatype:int,name:cantidad;datatype:int,name:descripcion;datatype:string" />
+	<infoitem key="UD_JREquiposexternos" value="name:Idingreso;datatype:int" />
+	<infoitem key="UD_JRDetaleEquipos" value="name:equipo;datatype:string,name:cantidad;datatype:int,name:detalles;datatype:string" />
+</info>

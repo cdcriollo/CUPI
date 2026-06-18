@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRReporteAsistencia" value="name:codUsuario;datatype:int,name:fecha;datatype:date,name:horaingreso;datatype:time,name:horasalida;datatype:time" />
+	<infoitem key="UD_JRNombreusuario" value="name:nombreUsu;datatype:string,name:apellidos;datatype:string,name:estamento;datatype:string,name:dependencia;datatype:string" />
+	<infoitem key="UD_JRFechahorario" value="name:fechaInicio;datatype:date,name:fechaFinal;datatype:date" />
+	<infoitem key="UD_JRAsignaturas" value="name:codAsignatura;datatype:string,name:codGrupo;datatype:int" />
+	<infoitem key="UD_JRInfoasignaturas" value="name:fechaInicio;datatype:date,name:fechaFinal;datatype:date" />
+</info>

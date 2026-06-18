@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRHorarios" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+	<infoitem key="UD_JRNomasignatura" value="name:nomAsignatura;datatype:string" />
+	<infoitem key="UD_JRHorarioshora" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int" />
+	<infoitem key="UD_JRHorarioslav" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int" />
+	<infoitem key="UD_JRHorarioslas" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int" />
+	<infoitem key="UD_JRHorariossala2" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int,name:Plataforma;datatype:string" />
+	<infoitem key="UD_JRHorariossala3" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int,name:Plataforma;datatype:string" />
+	<infoitem key="UD_JRHorariossala4" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int" />
+	<infoitem key="UD_JRHorariossala5" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int,name:Plataforma;datatype:string" />
+	<infoitem key="UD_JRHorariossala6" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int,name:Plataforma;datatype:string" />
+	<infoitem key="UD_JRHorariossala7" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string,name:codDia;datatype:int,name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int,name:numpripc;datatype:int,name:numultpc;datatype:int,name:Plataforma;datatype:string" />
+</info>

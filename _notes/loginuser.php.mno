@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_queryusuarios" value="name:nombreUsuario;datatype:string,name:contrasena;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:nombreUsuario;datatype:string,name:contrasena;datatype:string,name:perfil;datatype:int,name:estado;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:nombreUsuario;datatype:string,name:contrasena;datatype:string,name:perfil;datatype:int,name:estado;datatype:string" />
+</info>

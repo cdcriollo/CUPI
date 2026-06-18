@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCusuarios" value="name:codUsuario;datatype:int,name:nombreUsu;datatype:string,name:estamento;datatype:string,name:dependencia;datatype:string" />
+</info>

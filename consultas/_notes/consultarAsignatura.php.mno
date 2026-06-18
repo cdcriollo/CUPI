@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_BAsignatura" value="name:numSala;datatype:int,name:menor;datatype:int" />
+	<infoitem key="UD_JRAsignaturas" value="name:codAsignatura;datatype:string,name:nomAsignatura;datatype:string,name:descripcionpro;datatype:string,name:actividad;datatype:string,name:fechainicio;datatype:date,name:fechafinal;datatype:date" />
+	<infoitem key="UD_JRBAsignaturas" value="name:codAsignatura;datatype:int" />
+	<infoitem key="UD_JRCGrupo" value="name:codGrupo;datatype:int,name:codAsignatura;datatype:string" />
+	<infoitem key="UD_JRNomasignatura" value="name:nomAsignatura;datatype:string" />
+	<infoitem key="UD_JRHorAsig" value="name:horainicio;datatype:time,name:horafinal;datatype:time,name:sala;datatype:int" />
+</info>

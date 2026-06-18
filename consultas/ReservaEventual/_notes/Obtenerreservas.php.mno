@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRConsultarreserva" value="name:No_reserva;datatype:string,name:cod_responsable;datatype:int,name:fecha_reserva;datatype:datetime,name:email;datatype:string,name:nombre_responsable;datatype:string,name:internet;datatype:string" />
+</info>

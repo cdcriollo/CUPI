@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRConsultarR" value="name:Nombrebien;datatype:string,name:descripcionTipo;datatype:string,name:descripcionSubtipo;datatype:string,name:estadorecurso;datatype:string,name:cantidad;datatype:int,name:marca;datatype:string,name:serial;datatype:int,name:caracteristicas;datatype:string,name:instalado_sala;datatype:int,name:instalado_comp;datatype:int,name:novedades;datatype:string,name:fechatramite;datatype:date,name:dependencia;datatype:string,name:orden_No;datatype:int,name:idTipo;datatype:int,name:subGrupo;datatype:int,name:Observaciones;datatype:string" />
+	<infoitem key="UD_JRCantidad" value="name:Total;datatype:int,name:subGrupo;datatype:int" />
+	<infoitem key="UD_JRDescripcion" value="name:descripcionSubtipo;datatype:string" />
+</info>

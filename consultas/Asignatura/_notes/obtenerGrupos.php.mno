@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRSalas" value="name:sala;datatype:int" />
+	<infoitem key="UD_JRGrupo" value="name:codGrupo;datatype:int" />
+	<infoitem key="UD_JRGAsignatura" value="name:codGrupo;datatype:int" />
+</info>

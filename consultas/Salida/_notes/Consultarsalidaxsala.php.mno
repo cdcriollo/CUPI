@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRSalidaSala" value="name:codIngreso;datatype:int,name:estado;datatype:int,name:computador;datatype:int,name:codUsuario;datatype:int" />
+	<infoitem key="UD_JRSalidaSala1" value="name:codIngreso;datatype:int,name:estado;datatype:int,name:computador;datatype:int,name:codUsuario;datatype:int" />
+	<infoitem key="UD_JRPrestamos" value="name:idPrestamo;datatype:int" />
+	<infoitem key="UD_JRDetallePrestamo" value="name:Noinventario;datatype:int,name:cantidad;datatype:int,name:descripcion;datatype:string" />
+	<infoitem key="UD_JREquipos" value="name:Idingreso;datatype:int" />
+	<infoitem key="UD_JRDetalleequipos" value="name:equipo;datatype:string,name:cantidad;datatype:int,name:detalles;datatype:string" />
+</info>

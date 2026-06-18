@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRCGrupoRecurso" value="name:totalrecursos;datatype:int,name:caracteristicas;datatype:string" />
+	<infoitem key="UD_JRCPrestadosRecursos" value="name:prestados;datatype:int" />
+	<infoitem key="UD_JRDetallePrestamo" value="name:idPrestamo;datatype:int,name:cantidad;datatype:int" />
+	<infoitem key="UD_JRPrestamoUsuario" value="name:fechaprestamo;datatype:date,name:codUsuario;datatype:int" />
+	<infoitem key="UD_JRNUsuario" value="name:nombreUsu;datatype:string" />
+</info>

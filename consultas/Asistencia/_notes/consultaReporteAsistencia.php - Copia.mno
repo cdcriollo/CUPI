@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRReporteAsistencia" value="name:codUsuario;datatype:int,name:fecha;datatype:date,name:horaingreso;datatype:time,name:horasalida;datatype:time" />
+</info>

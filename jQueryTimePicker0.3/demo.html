@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>TimePicker Demo Page</title>
+		<link rel="stylesheet" media="screen" href="timepicker.css" type="text/css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="./jquery.js"></script>
+		<script type="text/javascript" src="./jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="./jquery.timepicker.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#tp").timepicker({divId: "mytimepicker"});
+				$("#tp2").timepicker({divId: "mytimepicker"});
+				$("#tp3").timepicker();
+				$("#tp4").timepicker();
+			});
+		</script>
+		<style type="text/css">
+			body {
+				font-family: 'Trebuchet MS', Verdana, Tahoma, Helvetica, sans-serif;
+			}
+			div#footer {
+				border-top: 1px solid silver;
+				text-align:center;
+				font-size: .8em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>TimePicker Demo Page</h1>
+		<form>
+			TimePicker (read only): <input readonly="readonly" type="text" id="tp" name="timepicker" /><br /><br />
+			TimePicker (writable): <input type="text" id="tp2" name="timepicker" /><br /><br />
+			TimePicker (written time): <input type="text" value="7:07" id="tp3" name="timepicker" /><br /><br />
+			TimePicker (bad value): <input type="text" value="bad:value" id="tp4" name="timepicker" /><br /><br />
+		</form>
+		<div id="log">
+		</div>
+		<div id="footer">
+			Copyright (C) 2008 <a href="mailto:beosman@gmail.com">Diego Lago González</a> <br /> <a href="http://beosman.dyndns.org/proyectos/timepicker">http://beosman.dyndns.org/proyectos/timepicker</a>
+		</div>
+	</body>
+</html>

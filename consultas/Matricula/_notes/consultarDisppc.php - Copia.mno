@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_JRDisppc" value="name:Nopc;datatype:int,name:numSala;datatype:int,name:estado;datatype:string,name:estadoocupacion;datatype:string" />
+	<infoitem key="UD_JRPcSala" value="name:Nopc;datatype:int" />
+	<infoitem key="UD_JRAsignarpc" value="name:pc;datatype:int" />
+	<infoitem key="UD_JRListapc" value="name:Nopc;datatype:int" />
+</info>
